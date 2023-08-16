@@ -1,0 +1,87 @@
+.home{
+  background-color: rgb(17, 185, 101);
+}
+
+.forma{
+  width: 60%;
+  margin: 0 auto ;
+  background-color: white;
+  padding: 2rem;
+  border: 1px solid rgb(163, 182, 189);
+  border-radius: 10px;
+  display: flex; flex-direction: column; row-gap: 1.5rem;
+  .img{
+    width: 150px;height: 150px;text-align: center;
+  }
+  input{
+    width: 95%;
+    height: 2rem;
+    outline: none;
+    border: 1px solid lightblue;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  textarea{
+    outline: none;
+    border: 1px solid lightblue;
+    
+  }
+  label{
+    font-size: 1.2rem;
+    color: rgb(125, 150, 158);
+    width: 100%;
+  }
+  select{
+    width: 100%;
+    color: rgb(117, 129, 133);
+    outline: none;
+    border: 1px solid lightblue;
+    padding: 0.95rem;
+    font-size: 0.9rem;
+  }
+}
+.rasm{
+  display:grid; grid-template-columns: 1fr 3fr; align-items: center;  gap: 1rem;;
+  .span2{
+    width: 100%;
+    display: flex; flex-direction: column; row-gap: 1.5rem;
+  } 
+}
+.nomer{
+  width: 99%;
+  display: flex; gap: 2rem;
+}
+.adres{
+  width: 99%;
+  display: flex; gap: 2rem;
+}
+.day{
+  width: 99%;
+  display: flex; gap: 1.9rem;
+  .selekt{
+    display: grid;grid-template-columns: 1fr 2fr 1fr; gap: 1rem;
+  }
+}
+.driving{
+  width: 99%;
+  display: flex; gap: 2rem;
+}
+.natsiya{
+  width: 99%;
+  display: flex; gap: 2rem;
+}
+.linkedin{
+  width: 99%;
+  display: flex; gap: 2rem;
+}
+.sabmit{
+  width: 99%;
+  font-size: 1.2rem;
+  color: rgb(88, 96, 98);
+  #asd{
+    width: 100%;
+    color: rgb(88, 96, 98);
+    border: 1px solid lightblue;
+    height: 50px;
+  }
+}

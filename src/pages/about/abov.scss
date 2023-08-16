@@ -1,0 +1,69 @@
+.forcha{
+  width: 60%;
+  margin: 0 auto ;
+  background-color: white;
+  padding: 2rem;
+  border: 1px solid rgb(163, 182, 189);
+  border-radius: 10px;
+  display: flex; flex-direction: column; row-gap: 1.5rem;
+}
+input{
+  width: 95%;
+  height: 2rem;
+  outline: none;
+  border: 1px solid lightblue;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+textarea{
+  outline: none;
+  border: 1px solid lightblue;
+}
+label{
+  font-size: 1.2rem;
+  color: rgb(125, 150, 158);
+  width: 100%;
+}
+select{
+  width: 100%;
+  color: rgb(117, 129, 133);
+  outline: none;
+  border: 1px solid lightblue;
+  padding: 0.95rem;
+  font-size: 0.9rem;
+}
+.heding{
+  width: 99%;
+  padding: 0.5rem 0rem;
+  color: rgb(103, 114, 118);
+  border-bottom: 1px solid #7f8a8d;
+}
+.enploy{
+  width: 97%;
+}
+.language{
+  width: 99%;
+  display: flex; gap: 2rem;
+}
+.dayday{
+  width: 99%;
+  display: flex; gap: 1.9rem;
+  .selec{
+    display: grid;grid-template-columns: 1fr 2fr ; gap: 1rem;
+  }
+}
+.skill{
+  width: 99%;
+  display: flex; gap: 2rem;
+  padding: 1rem 0rem;
+}
+.titl{
+  width: 99%;
+  display: flex; gap: 2rem;
+}
+#asd{
+  width: 99%;
+  color: rgb(88, 96, 98);
+  border: 1px solid lightblue;
+  height: 50px;
+}

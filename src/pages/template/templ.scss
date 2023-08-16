@@ -1,0 +1,82 @@
+.container{
+  width: 100%;
+  border-radius: 10px;
+  margin: 0 auto;
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  .left{
+    padding: 2rem;
+    color: white;
+    width: 25%;
+    background-color: rgb(128, 137, 141);
+    .img{
+      width: 150px;
+      height: 150px;
+      background-color: white;
+    }
+    h1{
+      border-bottom: 1px solid white;
+    }
+    p{
+      border-bottom: 1px solid lightblue;
+    }
+  }
+  .right{
+    width: 80%;
+    padding: 2rem;
+    color:rgb(139, 148, 153) ;
+    .tugilgani{
+      text-align: center;
+      width: 100%;
+      padding: 2.8rem 0rem;
+      background-color: rgba(217, 223, 226, 0.439);
+    }
+    h1{
+      margin: 0;
+      padding: 0;
+    }
+    p{
+      margin: 0;padding: 0;
+    }
+    .skil{
+      display: grid;grid-template-columns: 2fr 1fr; gap: 2rem;
+    }
+    .language{
+      display: grid;grid-template-columns: 2fr 1fr; gap: 2rem;
+
+    }
+    .work{
+      &__job{
+        display: flex; justify-content: space-between;
+      }
+      &__start{
+        display: flex; justify-content: space-between;
+        
+      }
+    }
+    .education{
+      &__ikki__town{
+        display: flex; justify-content: space-between;
+      }
+      &__uch{
+        display: flex; justify-content: space-between;
+      }
+    }
+  }
+ 
+}
+.print{
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 10px;
+  #asd{
+    width: 100%;
+    outline: none;
+    color: rgb(88, 96, 98);
+    height: 50px;
+    border-radius: 10px;
+  }
+}
